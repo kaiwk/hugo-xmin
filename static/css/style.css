@@ -26,6 +26,7 @@ hr {
 pre {
   border: 1px solid #ddd;
   box-shadow: 5px 5px 5px #eee;
+  background: #f8f8f8;
   padding: 1em;
   overflow-x: auto;
 }
@@ -49,3 +50,11 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
